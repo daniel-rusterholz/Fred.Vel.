@@ -1,0 +1,23 @@
+﻿@model FrederiksvaerkVelvaerecenter.Models.Healer[]
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    @foreach (var healer in Model)
+    {
+        <div>
+            <h1>@healer.Name</h1>
+        </div>
+    }
+    
+</body>
+</html>
